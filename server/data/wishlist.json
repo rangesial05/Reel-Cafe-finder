@@ -1,0 +1,74 @@
+[
+  {
+    "id": "wish-1795207671719-iz4k4",
+    "name": "Manthan Songhai",
+    "category": "Restaurant",
+    "cityOrArea": "Kolkata",
+    "formattedAddress": "Manthan Songhai, Kolkata",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Manthan%20Songhai%2C%20Kolkata",
+    "rating": 4.5,
+    "coordinates": [
+      22.5726,
+      88.3639
+    ],
+    "visited": false,
+    "notes": "",
+    "savedAt": "2026-11-20T20:47:51.719Z",
+    "reelUrl": "https://www.instagram.com/reel/DL9U9o2hEVS/?jplx=ZzNsaGd3c2JsdTY5",
+    "detectionSource": "caption"
+  },
+  {
+    "id": "wish-1795201501789-lo9fk",
+    "name": "Roastery Coffee House",
+    "category": "Cafe",
+    "cityOrArea": "Banjara Hills, Hyderabad",
+    "formattedAddress": "Roastery Coffee House",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Roastery%20Coffee%20House%2C%20Banjara%20Hills%2C%20Hyderabad",
+    "rating": 4.5,
+    "coordinates": [
+      19.076,
+      72.8777
+    ],
+    "visited": false,
+    "notes": "Added from E2E test",
+    "savedAt": "2026-11-20T19:06:18.687Z",
+    "reelUrl": null,
+    "detectionSource": null
+  },
+  {
+    "id": "sample-1",
+    "name": "Subko Specialty Coffee & Bakehouse",
+    "category": "Cafe",
+    "cityOrArea": "Bandra West, Mumbai",
+    "formattedAddress": "Subko, Mary Lodge, 21A, Chapel Rd, Ranwar, Bandra West, Mumbai",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Subko+Coffee+Bandra+Mumbai",
+    "rating": 4.7,
+    "coordinates": [
+      19.0558,
+      72.8296
+    ],
+    "visited": false,
+    "notes": "Famous for sourdough toast and iced pour over",
+    "savedAt": "2026-11-20T19:02:52.450Z",
+    "source": "reel_analysis",
+    "reelUrl": "https://www.instagram.com/reel/sample1/"
+  },
+  {
+    "id": "sample-2",
+    "name": "Dyu Art Cafe",
+    "category": "Cafe",
+    "cityOrArea": "Koramangala, Bangalore",
+    "formattedAddress": "Dyu Art Cafe, 5th Block, Koramangala, Bengaluru",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dyu+Art+Cafe+Koramangala+Bangalore",
+    "rating": 4.6,
+    "coordinates": [
+      12.9348,
+      77.6208
+    ],
+    "visited": true,
+    "notes": "Traditional Kerala-style courtyard ambience, great chocolate cake",
+    "savedAt": "2026-11-20T19:02:52.452Z",
+    "source": "reel_analysis",
+    "reelUrl": "https://www.instagram.com/reel/sample2/"
+  }
+]

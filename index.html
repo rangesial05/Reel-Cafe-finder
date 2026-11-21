@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReelSpotter — AI Reel Place Finder & Wishlist</title>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#121214" />
+    <meta name="description" content="AI-powered detector that watches food & travel reels to find the exact cafe or restaurant on Google Maps and save it to your wishlist." />
+    
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+            },
+            colors: {
+              page: '#121214',
+              surface: {
+                DEFAULT: '#1C1C20',
+                elevated: '#1C1C20',
+                nested: '#242429',
+              },
+              coral: {
+                DEFAULT: '#FF5A36',
+                hover: '#FF6F4F',
+                light: '#FF8A65',
+              },
+              emerald: {
+                DEFAULT: '#22C55E',
+                hover: '#16A34A',
+              },
+              amber: {
+                DEFAULT: '#F59E0B',
+              },
+              primary: '#F4F4F5',
+              muted: '#A1A1AA',
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    
+    <style>
+      body {
+        font-family: 'Plus Jakarta Sans', Inter, sans-serif;
+        background-color: #121214;
+        color: #F4F4F5;
+      }
+      /* Custom dark scrollbars */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #121214;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #242429;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #32323a;
+      }
+      ::selection {
+        background-color: rgba(255, 90, 54, 0.35);
+        color: #FFFFFF;
+      }
+    </style>
+  </head>
+  <body class="bg-[#121214] text-[#F4F4F5] min-h-screen selection:bg-[#FF5A36]/30 selection:text-white antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
